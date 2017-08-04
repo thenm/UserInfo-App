@@ -6,6 +6,9 @@
          <h1 class="title is-4 has-text-centered">
            User Information
          </h1>
+         <router-link :to="{name: 'Home'}" class="is-pulled-right">
+           Add User
+         </router-link>
        </div>
      </div>
    </section>
